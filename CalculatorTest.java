@@ -121,13 +121,7 @@ class Calculator {
         Calculator ob = new Calculator(num, arr[i])
         */
 
-        try {
-            Calculator.createCalc();
-        } catch (InputMismatchException e) {
-            System.out.println(e);
-            System.out.println("Wrong select of item, please try again");
-            createCalc();
-        }
+        Calculator.createCalc();
 
     }
 }
